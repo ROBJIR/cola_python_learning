@@ -1,4 +1,6 @@
-branchies:
+branches:
 
 main
-dev
+ +-- dev
+
+
