@@ -68,6 +68,11 @@ border: 0px solid #666;
 	border: 0px solid #666;
 }
 
+.hidiv {
+	border: 1px solid #ccc;
+	font: 14px/1.0 Calibri, Verdana, sans-serif;
+}
+
 h1 {
 	font: 19px/2 Calibri, Verdana, sans-serif;
 	border: 0px solid #666;
