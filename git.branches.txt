@@ -1,0 +1,4 @@
+branchies:
+
+main
+dev
