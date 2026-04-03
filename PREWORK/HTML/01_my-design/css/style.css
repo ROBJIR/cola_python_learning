@@ -62,9 +62,25 @@ border: 0px solid #666;
 	width: 200px;
 }
 
-.h1 {
+.title {
 	font: 21px/2 Calibri, Verdana, sans-serif;
+	color: #999;
 	border: 0px solid #666;
+}
+
+h1 {
+	font: 19px/2 Calibri, Verdana, sans-serif;
+	border: 0px solid #666;
+	color: #ccc;
+	font-weight: bold;
+	
+}
+
+h2 {
+	font: 17px/2 Calibri, Verdana, sans-serif;
+	border: 0px solid #666;
+	color: #666;
+	font-weight: bold;
 }
 
 .chapter {
