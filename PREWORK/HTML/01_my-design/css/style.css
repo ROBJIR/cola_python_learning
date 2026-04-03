@@ -2,19 +2,21 @@
 html, body {
 	/* Base styles go here */
 	font: 14px/1.5 Verdana, sans-serif;
-	background: #ddd;
+	background: #eee;
 	color: #222;
 }
 
 body {
-	background: #eee;
-	border: 1px solid #eee;
+	background: #fff;
+	color: #000;
+	border: 0px solid #eee;
 	max-width: 680px;
     margin: 0 auto;
-    padding: 0 20px;	
+    padding: 0px;	
 	min-height: 100vh;
     justify-content: center;  /* horizontálně */
     align-items: center;      /* vertikálně */	
+	padding: 0px;
 }
 
 .wrapper {
@@ -24,23 +26,44 @@ body {
 }
 
 .main {
-	border: 0px solid #666;
+	border: 0px solid #fff;
 	min-height: 100%;
 	flex: 1;
+	padding: 20px;
 }
-
 .header {
-	background: #007;
-	color: #ddd;
+	padding: 10px 20px 10px 20px;
+	background: #fff;
+	color: #999;
 }
 .footer {
-	padding: 0 10px;
+	padding: 10px 20px 10px 20px;
 	margin: 0px;
 	border: 0px solid #666;
+	color: #999;
+	font: 11px/1.0 Calibri, Verdana, sans-serif;
+	display: flex;
+    justify-content: center;  /* horizontálně */
+    align-items: top;      /* vertikálně */	
+}
+.footer1{
+	border: 0px solid #666;
+	text-align: left; 
+	width: 200px;
+}
+.footer2 {
+border: 0px solid #666;	
+	text-align: center; 
+	width: 280px;
+}
+.footer3{
+	border: 0px solid #666;
+	text-align: right; 
+	width: 200px;
 }
 
 .h1 {
-	font: 21px/2 Verdana, sans-serif;
+	font: 21px/2 Calibri, Verdana, sans-serif;
 	border: 0px solid #666;
 }
 
@@ -48,6 +71,11 @@ body {
 }
 
 #special {
+}
+
+.form {
+	border: 0px solid #ccc;
+	padding: 0px;
 }
 
 form {
