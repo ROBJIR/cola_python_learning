@@ -1,4 +1,8 @@
-/* myDesign styles */
+/* style.css file - myDesign */
+* {
+    box-sizing: border-box;
+}
+
 html, body {
 	/* Base styles go here */
 	font: 14px/1.5 Verdana, sans-serif;
@@ -32,10 +36,31 @@ body {
 	padding: 20px;
 }
 .header {
-	padding: 0px 20px 0px 20px;
+	border: 0px solid red;	
+	padding: 0px 0px 0px 0px;
 	background: #fff;
 	color: #999;
+	font: 11px/1.0 Calibri, Verdana, sans-serif;
+	display: flex;
+    justify-content: center;  
+    align-items: bottom;    
 }
+.header-left{
+	border: 0px solid #666;
+	text-align: left; 
+	width: 400px;
+}
+.header-center {
+	border: 0px solid #666;	
+	text-align: center; 
+	width: 200px;
+}
+.header-right{
+	border: 0px solid #666;
+	text-align: right; 
+	width: 80px;
+}
+
 .footer {
 	padding: 10px 20px 10px 20px;
 	margin: 0px;
@@ -46,17 +71,17 @@ body {
     justify-content: center;  /* horizontálně */
     align-items: top;      /* vertikálně */	
 }
-.footer1{
+.footer-left{
 	border: 0px solid #666;
 	text-align: left; 
 	width: 200px;
 }
-.footer2 {
+.footer-center {
 border: 0px solid #666;	
 	text-align: center; 
 	width: 280px;
 }
-.footer3{
+.footer-right{
 	border: 0px solid #666;
 	text-align: right; 
 	width: 200px;
@@ -80,6 +105,7 @@ h1 {
 	border: 0px solid #666;
 	color: #ccc;
 	font-weight: bold;
+	text-transform: lowercase;
 }
 
 h2 {
@@ -87,12 +113,19 @@ h2 {
 	border: 0px solid #666;
 	color: #aaa;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .chapter {
 }
 
-#special {
+.detaila_area {
+	padding: 28px 0 28px 0;
+	border: 0px solid #ccc;
+}
+
+details {
+	padding: 12px 0 12px 0;
 }
 
 .form {

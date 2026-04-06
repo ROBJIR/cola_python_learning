@@ -1,0 +1,63 @@
+/* menu.css file - myDesign */
+.top-menu {
+	padding: 10px 0 0 0;
+	margin: 0px;
+	border: 0px solid blue;
+	color: #999;
+	font: 16px/1.0 Calibri, Verdana, sans-serif;
+	display: flex;
+    justify-content: rigth;  /* horizontálně */
+    align-items: bottom;      /* vertikálně */	
+}
+
+.top-menu ul {
+	padding: 0px;
+	margin: 0px;
+	border: 0px solid #666;
+	color: blue;
+}
+
+.top-menu li{
+	padding: 2px 8px 2px 8px;
+	margin: 0px;
+	border: 0 0 0 1px solid blue;
+	color: blue;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-btn {
+    padding: 10px 15px;
+	font: 28px/1.0 Calibri, Verdana, sans-serif;
+    background-color: #fff;
+    color: #666;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.menu-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* klíčová část */
+.menu:hover .menu-content {
+    display: block;
+}

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>robert / myDesign</title>
     <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
 	<div id="top"></div>
@@ -15,7 +16,25 @@
 				-->
 
 		<header class="header">
-			<h1 class="title">my Design</h1>
+			<div class="header-left">
+				<p class="title">my Design</p>
+			</div>
+			<div class="header-center">
+				&nbsp;
+			</div>
+			<div class="header-rigth">
+				<div class="top-menu">
+					<div class="menu">
+						<button class="menu-btn">&equiv;</button>
+						<div class="menu-content">
+							<a href="#">Položka 1</a>
+							<a href="#">Položka 2</a>
+							<a href="#">Položka 3</a>
+						</div>
+					</div>
+				</div>
+			</div>		
+			
 		</header>
 		<div class="main">
 <!--		
@@ -30,6 +49,7 @@
 <h2>h2</h2>
 text in body
 
+<div class="detaila_area">
 <details>
   <summary>[1]</summary>
   <div class="hidiv">Toto je skrytý odstavec.</div>
@@ -46,6 +66,7 @@ text in body
   <summary>[4]</summary>
   <div class="hidiv">Toto je skrytý odstavec 004.</div>
 </details>
+</div>
 <!--
 			<ul>
 				<li>List element</li>
@@ -69,14 +90,15 @@ text in body
 		
 -->
 		</div> <!-- div: main -->
+		<div id="bottom"></div>
 		<div class="footer">
-			<div class="footer1">
+			<div class="footer-left">
 			  <a href="#top"><img src="images/rj-logo.png" width="12" alt="logo" title="rj"></a>
 			</div>
-			<div class="footer2">
+			<div class="footer-center">
 			&copy 2026,&nbsp;<span>Robert</span>
 			</div>
-			<div class="footer3">
+			<div class="footer-right">
 			<a href="#top">top</a>
 			</div>
 
