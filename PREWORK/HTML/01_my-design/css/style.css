@@ -6,7 +6,7 @@
 html, body {
 	/* Base styles go here */
 	font: 14px/1.5 Verdana, sans-serif;
-	background: #eee;
+	background: #fff;
 	color: #222;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 .header {
 	border: 0px solid red;	
-	padding: 0px 0px 0px 0px;
+	padding: 0px;
 	background: #fff;
 	color: #999;
 	font: 11px/1.0 Calibri, Verdana, sans-serif;
@@ -56,7 +56,7 @@ body {
 	width: 200px;
 }
 .header-right{
-	border: 0px solid #666;
+	border: 0px solid red;
 	text-align: right; 
 	width: 80px;
 }
@@ -88,8 +88,9 @@ border: 0px solid #666;
 }
 
 .title {
-	font: 21px/2 Calibri, Verdana, sans-serif;
-	color: #999;
+	font: 23px/1 Calibri, Verdana, sans-serif;
+	color: #800;
+	font-weight: bold;
 	border: 0px solid #666;
 }
 
@@ -101,7 +102,7 @@ border: 0px solid #666;
 }
 
 h1 {
-	font: 19px/2 Calibri, Verdana, sans-serif;
+	font: 32px/2 Calibri, Verdana, sans-serif;
 	border: 0px solid #666;
 	color: #ccc;
 	font-weight: bold;
@@ -109,7 +110,7 @@ h1 {
 }
 
 h2 {
-	font: 17px/2 Calibri, Verdana, sans-serif;
+	font: 21px/2 Calibri, Verdana, sans-serif;
 	border: 0px solid #666;
 	color: #aaa;
 	font-weight: bold;
@@ -172,4 +173,27 @@ button {
 }
 button:hover {
     background: crimson;
+}
+
+a {
+    color: #000;              /* barva odkazu */
+    text-decoration: none;    /* odstraní podtržení */
+}
+a:link {
+    color: #000;              /* normální (nenavštívený) odkaz */
+	text-decoration: underline	
+}
+
+a:visited {
+    color: #000;            /* již navštívený odkaz */
+	text-decoration: underline	
+}
+
+a:hover {
+    color: #800;               /* když na něj najedeš myší */
+    text-decoration: none;
+}
+
+a:active {
+    color: #000;             /* při kliknutí */
 }
